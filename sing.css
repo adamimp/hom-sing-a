@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: greenyellow;
+
+}
+.contact{
+    width: 420px;
+    color: antiquewhite;
+
+}
+.contact h1 {
+    font-size: 36px;
+    text-align: center;
+
+}
+.contact .input-box{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 40px;
+    font-size: 16px;
+    color: white;
+    padding: 20px 45px 20px 20px;
+}
+.input-box input::placeholder {
+    color: aliceblue;
+    
+}
+.input-box i{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+.contact .remember{
+    display: flex;
+    justify-content: space-between;
+    font-size: 15;
+    margin: -15px 0 15px;
+
+}
+.contact{
+    border: 10px solid rgb(143, 197, 35);
+    border-radius: 25px;
+}
+.btn{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+   width: 49vh;
+   height: 4vh;
+   margin: 10px;
+   cursor: pointer;
+   gap: 10000vh;
+   text-decoration: none;
+}
+.btn :hover{
+    color: transparent;
+    
+}
+.sing{
+    text-decoration: none;
+    color: red;
+}
+.btn a{
+  text-decoration: none;
+}
